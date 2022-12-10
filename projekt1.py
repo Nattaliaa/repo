@@ -1,3 +1,4 @@
+import datetime
 import os
 import time
 
@@ -21,6 +22,29 @@ import time
 #print(sum2[3:6])
 #print(sum2[14:17])
 
-import datetime
-today = datetime.date.today()
-d1 = today.strftime('%d/%m/%Y')
+#import datetime
+#today = datetime.date.today()
+#print(today)
+#d1 = today.strftime('%d/%m/%Y')
+#d2 = today.strftime('%B %d, %Y')
+
+#print(d1)
+#print(d2)
+
+#now = datetime.datetime.now()
+#print(type(now))
+#print(now)
+#timer = now.strftime('%H:%M:%S')
+#date = now.strftime('year = %Y, mnth = %m, day = %d')
+
+#print(timer)
+#print(date)
+
+#Wypisać 10 nazwy plikow w odstepach 2 sekundowych o nazwach report<godzina>.txt
+#name = 'report.txt'
+#for i in range (10):
+   # now = datetime.datetime.now()
+  #  my_now = now.strftime('%H%M%S')
+   # print(name[:6] + my_now + name[-4:])
+   #time.sleep(2)
+
